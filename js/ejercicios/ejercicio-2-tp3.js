@@ -28,5 +28,10 @@ ciudades [i] = 'Paris';
 ciudades[1] = 'Barcelona';
 
 for (i = 0; i < ciudades.length; i++){
+    if(i + 1 == ciudades.length)
+    document.write(ciudades[i]);
+    else 
     document.write(ciudades[i]+' ; ');
 }
+
+// Cuando hago una sola linea en el if no hace falta poner {} como en el caso de arriba 
